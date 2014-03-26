@@ -14,7 +14,7 @@ setup(
     license='MIT',
     platforms='any',
     zip_safe=False,
-    url='https://github.com/avelino/bottle-beaker',
+    url='https://github.com/bottlepy/bottle-beaker',
     py_modules=['bottle_beaker'],
 
     classifiers=[
