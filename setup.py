@@ -7,7 +7,7 @@ description = "Bottle plugin beaker, WSGI middleware for sessions and caching"
 
 setup(
     name='bottle-beaker',
-    version="0.1.0",
+    version="0.1.1",
     description=description,
     author="Thiago Avelino",
     author_email="thiago@avelino.xxx",
