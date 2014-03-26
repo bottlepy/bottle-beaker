@@ -16,7 +16,7 @@ setup(
     zip_safe=False,
     url='https://github.com/bottlepy/bottle-beaker',
     py_modules=['bottle_beaker'],
-
+    requires=['bottle (>=0.9)', 'beaker'],
     classifiers=[
         'Environment :: Web Environment',
         'Environment :: Plugins',
