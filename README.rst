@@ -11,7 +11,7 @@ Example
 .. code-block:: python
 
     import bottle
-    from bottle.ext.beaker.middleware import SessionMiddleware
+    from bottle.ext import beaker
 
     session_opts = {
         'session.type': 'file',
@@ -20,7 +20,7 @@ Example
         'session.auto': True
     }
 
-    app = SessionMiddleware(bottle.app(), session_opts)
+    app = beaker.middleware.SessionMiddleware(bottle.app(), session_opts)
 
     @bottle.route('/test')
     def test():
