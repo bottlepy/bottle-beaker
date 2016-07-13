@@ -3,6 +3,7 @@
 import bottle
 import inspect
 import beaker
+from beaker import middleware
 
 
 class BeakerPlugin(object):
@@ -33,6 +34,7 @@ class BeakerPlugin(object):
 
         def wrapper(*args, **kwargs):
             kwargs[self.keyword] = beaker
+            kwargs["{0}_middleware".format(self.keyword)] = middleware
             return callback(*args, **kwargs)
 
         return wrapper
