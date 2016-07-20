@@ -8,7 +8,7 @@ REQUIREMENTS = [i.strip() for i in open("requirements.txt").readlines()]
 
 setup(
     name='bottle-beaker',
-    version="0.1.2",
+    version="0.1.3",
     description=description,
     author="Thiago Avelino",
     author_email="thiago@avelino.xxx",

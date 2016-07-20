@@ -1,0 +1,1 @@
+include bottle_beaker.py requirements.txt README.rst LICENSE
